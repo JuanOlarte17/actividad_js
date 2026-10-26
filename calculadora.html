@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1: Calculadora</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--
+    REQUISITO: vincula aqui tu propio archivo CSS.
+    Ejemplo: <link rel="stylesheet" href="estilos.css">
+  -->
+</head>
+<body>
+
+  <a href="index.html">&larr; Volver al inicio</a>
+
+  <h1>Ejercicio 1: Calculadora de dos numeros</h1>
+
+  <h2>Descripcion del ejercicio</h2>
+  <p>
+    Se pide realizar una calculadora que reciba dos numeros y permita calcular,
+    con un boton diferente para cada operacion, la <strong>suma</strong>, la
+    <strong>resta</strong>, la <strong>multiplicacion</strong> y la
+    <strong>division</strong> entre esos dos numeros. El resultado de la
+    operacion seleccionada debe mostrarse en el input de resultado.
+  </p>
+
+  <!--
+    Instrucciones:
+    1. Los inputs de este formulario no tienen id ni name: debes acceder a ellos
+       desde tu JS usando el DOM (por ejemplo querySelectorAll('input') y la
+       posicion de cada campo, o recorriendo el formulario).
+    2. Agrega el atributo onclick a cada boton, apuntando a una funcion distinta
+       de tu JS (sumar, restar, multiplicar, dividir).
+    3. Valida en tu JS que pasa si se intenta dividir por cero.
+    4. Crea y vincula tu propio CSS y tu propio JS.
+  -->
+
+  <form>
+    <p>
+      <label>Numero 1: <input type="number" placeholder="Numero 1" id="num1"></label>
+    </p>
+    <p>
+      <label>Numero 2: <input type="number" placeholder="Numero 2" id="num2"></label>
+    </p>
+
+    <p>
+      <button type="button" onclick="sumar()">Sumar</button>
+      <button type="button" onclick="resta()">Restar</button>
+      <button type="button" onclick="multi()">Multiplicar</button>
+      <button type="button" onclick="divi()">Dividir</button>
+    </p>
+
+    <p>
+      <label>Resultado: <input type="text" placeholder="Resultado" readonly id="resultado"></label>
+    </p>
+  </form>
+
+  <!--
+    REQUISITO: vincula aqui tu propio archivo JS.
+    Ejemplo: <script src="calculadora.js"></script>
+  -->
+    <script src="JS/script.js"></script>
+</body>
+</html>

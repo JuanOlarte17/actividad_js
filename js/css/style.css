@@ -1,0 +1,111 @@
+/* Estilos basicos y sencillos */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #1f3a5f;
+}
+
+/* Contenedores comunes */
+div, form, section, main {
+  max-width: 500px;
+  margin: 15px auto;
+}
+
+form, section, main, .contenedor, .container {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #d0d7e2;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aab4c4;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button, input[type="button"], input[type="submit"] {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #2f6fed;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+  background-color: #1d4fb8;
+}
+
+/* Resultados */
+p, span {
+  font-size: 16px;
+}
+
+#resultado, .resultado {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e8f0fe;
+  border-left: 4px solid #2f6fed;
+  font-weight: bold;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #d0d7e2;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #2f6fed;
+  color: #ffffff;
+}
+
+/* Enlaces y menu */
+a {
+  color: #2f6fed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 5px 10px;
+}
